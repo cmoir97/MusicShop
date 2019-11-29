@@ -1,15 +1,17 @@
 package instruments;
 
+import enums.InstrumentFamily;
+
 public abstract class Instrument {
 
     private String name;
     private String material;
     private String colour;
-    private String family;
+    private InstrumentFamily family;
     private int purchasePrice;
     private int salePrice;
 
-    public Instrument(String name, String material, String colour, String family, int purchasePrice, int salePrice){
+    public Instrument(String name, String material, String colour, InstrumentFamily family, int purchasePrice, int salePrice){
         this.name = name;
         this.material = material;
         this.colour = colour;
@@ -30,7 +32,7 @@ public abstract class Instrument {
         return colour;
     }
 
-    public String getFamily() {
+    public InstrumentFamily getFamily() {
         return family;
     }
 

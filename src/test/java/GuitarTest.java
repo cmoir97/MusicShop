@@ -1,3 +1,4 @@
+import enums.InstrumentFamily;
 import instruments.Guitar;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,8 +11,8 @@ public class GuitarTest {
 
     @Before
     public void before(){
-        guitar = new Guitar("Fender", "oak", "red", "Strings", 100, 200,
-        4);
+        guitar = new Guitar("Fender", "oak", "red", InstrumentFamily.STRINGS,
+                100, 200, 4);
     }
 
     @Test
@@ -29,4 +30,8 @@ public class GuitarTest {
         assertEquals("red", guitar.getColour());
     }
 
+    @Test
+    public void canGetFamily(){
+        assertEquals(InstrumentFamily.STRINGS, guitar.getFamily());
+    }
 }
