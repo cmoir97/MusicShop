@@ -3,6 +3,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class SheetMusicTest {
 
@@ -16,6 +17,11 @@ public class SheetMusicTest {
     @Test
     public void canGetName(){
         assertEquals("Bassoon for Beginners", sheetMusic.getName());
+    }
+
+    @Test
+    public void canGetPurchasePrice(){
+        assertEquals(5, sheetMusic.getPurchasePrice());
     }
 
 }
