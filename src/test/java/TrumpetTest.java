@@ -34,11 +34,11 @@ public class TrumpetTest {
     public void canGetFamily(){
         assertEquals(InstrumentFamily.WOODWIND, trumpet.getFamily());
     }
-//
-//    @Test
-//    public void canGetPurchasePrice(){
-//        assertEquals(100, guitar.getPurchasePrice());
-//    }
+
+    @Test
+    public void canGetPurchasePrice(){
+        assertEquals(150, trumpet.getPurchasePrice());
+    }
 //
 //    @Test
 //    public void canGetSalePrice(){
