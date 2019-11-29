@@ -51,12 +51,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrumpetTest.canPlayTrumpet">
-    <configuration name="TrumpetTest.canGetFamily" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TrumpetTest.canCalculateMarkup">
+    <configuration name="TrumpetTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
-      <option name="METHOD_NAME" value="canGetFamily" />
+      <option name="METHOD_NAME" value="canCalculateMarkup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrumpetTest.canCalculateMarkup" />
         <item itemvalue="JUnit.TrumpetTest.canPlayTrumpet" />
         <item itemvalue="JUnit.TrumpetTest.canGetNumberOfValves" />
         <item itemvalue="JUnit.TrumpetTest.canGetSalePrice" />
         <item itemvalue="JUnit.TrumpetTest.canGetPurchasePrice" />
-        <item itemvalue="JUnit.TrumpetTest.canGetFamily" />
       </list>
     </recent_temporary>
   </component>

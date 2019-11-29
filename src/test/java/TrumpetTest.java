@@ -54,9 +54,9 @@ public class TrumpetTest {
     public void canPlayTrumpet(){
         assertEquals("Womp", trumpet.play());
     }
-//
-//    @Test
-//    public void canCalculateMarkup(){
-//        assertEquals(100, guitar.calculateMarkup());
-//    }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(65, trumpet.calculateMarkup());
+    }
 }
