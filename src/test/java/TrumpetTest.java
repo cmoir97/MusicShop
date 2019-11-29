@@ -19,11 +19,11 @@ public class TrumpetTest {
     public void canGetName() {
         assertEquals("Mendini", trumpet.getName());
     }
-//
-//    @Test
-//    public void canGetMaterial(){
-//        assertEquals("oak", guitar.getMaterial());
-//    }
+
+    @Test
+    public void canGetMaterial(){
+        assertEquals("Brass", trumpet.getMaterial());
+    }
 //
 //    @Test
 //    public void canGetColour(){
