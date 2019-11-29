@@ -49,11 +49,11 @@ public class TrumpetTest {
     public void canGetNumberOfValves(){
         assertEquals(3, trumpet.getNumberOfValves());
     }
-//
-//    @Test
-//    public void canPlayGuitar(){
-//        assertEquals("Strum", guitar.play());
-//    }
+
+    @Test
+    public void canPlayTrumpet(){
+        assertEquals("Womp", trumpet.play());
+    }
 //
 //    @Test
 //    public void canCalculateMarkup(){
