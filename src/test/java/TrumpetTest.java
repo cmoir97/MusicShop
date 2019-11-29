@@ -29,11 +29,11 @@ public class TrumpetTest {
     public void canGetColour(){
         assertEquals("Gold", trumpet.getColour());
     }
-//
-//    @Test
-//    public void canGetFamily(){
-//        assertEquals(InstrumentFamily.STRINGS, guitar.getFamily());
-//    }
+
+    @Test
+    public void canGetFamily(){
+        assertEquals(InstrumentFamily.WOODWIND, trumpet.getFamily());
+    }
 //
 //    @Test
 //    public void canGetPurchasePrice(){
