@@ -19,4 +19,9 @@ public class GuitarTest {
         assertEquals("Fender", guitar.getName());
     }
 
+    @Test
+    public void canGetMaterial(){
+        assertEquals("oak", guitar.getMaterial());
+    }
+
 }
