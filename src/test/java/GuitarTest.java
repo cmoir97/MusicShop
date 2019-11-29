@@ -66,4 +66,10 @@ public class GuitarTest {
         guitar.setName("Les Paul");
         assertEquals("Les Paul", guitar.getName());
     }
+
+    @Test
+    public void canSetPurchasePrice(){
+        guitar.setPurchasePrice(150);
+        assertEquals(150, guitar.getPurchasePrice());
+    }
 }

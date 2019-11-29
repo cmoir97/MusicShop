@@ -52,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GuitarTest.canSetName">
+  <component name="RunManager" selected="JUnit.GuitarTest.canSetPurchasePrice">
     <configuration name="GuitarTest.canSetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,21 +63,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SheetMusicTest.canGetMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GuitarTest.canSetPurchasePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SheetMusicTest" />
-      <option name="METHOD_NAME" value="canGetMarkup" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="METHOD_NAME" value="canSetPurchasePrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SheetMusicTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SheetMusicTest.canGetMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SheetMusicTest" />
-      <option name="METHOD_NAME" value="canGetName" />
+      <option name="METHOD_NAME" value="canGetMarkup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuitarTest.canSetPurchasePrice" />
         <item itemvalue="JUnit.GuitarTest.canSetName" />
         <item itemvalue="JUnit.SheetMusicTest.canGetMarkup" />
         <item itemvalue="JUnit.SheetMusicTest.canGetSalePrice" />
         <item itemvalue="JUnit.SheetMusicTest.canGetPurchasePrice" />
-        <item itemvalue="JUnit.SheetMusicTest.canGetName" />
       </list>
     </recent_temporary>
   </component>
