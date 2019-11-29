@@ -8,6 +8,6 @@ public class SheetMusic extends Accessory implements ISell {
     }
 
     public int calculateMarkup() {
-        return getPurchasePrice() - getSalePrice();
+        return getSalePrice() - getPurchasePrice();
     }
 }

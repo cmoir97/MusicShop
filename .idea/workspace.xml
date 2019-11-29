@@ -51,7 +51,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SheetMusicTest.canGetSalePrice">
+  <component name="RunManager" selected="JUnit.SheetMusicTest.canGetMarkup">
+    <configuration name="SheetMusicTest.canGetMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SheetMusicTest" />
+      <option name="METHOD_NAME" value="canGetMarkup" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SheetMusicTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,23 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrumpetTest.canPlayTrumpet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MusicShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
-      <option name="METHOD_NAME" value="canPlayTrumpet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SheetMusicTest.canGetMarkup" />
         <item itemvalue="JUnit.SheetMusicTest.canGetSalePrice" />
         <item itemvalue="JUnit.SheetMusicTest.canGetPurchasePrice" />
         <item itemvalue="JUnit.SheetMusicTest.canGetName" />
         <item itemvalue="JUnit.TrumpetTest.canCalculateMarkup" />
-        <item itemvalue="JUnit.TrumpetTest.canPlayTrumpet" />
       </list>
     </recent_temporary>
   </component>
