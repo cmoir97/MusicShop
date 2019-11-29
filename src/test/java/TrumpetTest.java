@@ -24,11 +24,11 @@ public class TrumpetTest {
     public void canGetMaterial(){
         assertEquals("Brass", trumpet.getMaterial());
     }
-//
-//    @Test
-//    public void canGetColour(){
-//        assertEquals("red", guitar.getColour());
-//    }
+
+    @Test
+    public void canGetColour(){
+        assertEquals("Gold", trumpet.getColour());
+    }
 //
 //    @Test
 //    public void canGetFamily(){
