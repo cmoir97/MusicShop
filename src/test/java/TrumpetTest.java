@@ -39,11 +39,11 @@ public class TrumpetTest {
     public void canGetPurchasePrice(){
         assertEquals(150, trumpet.getPurchasePrice());
     }
-//
-//    @Test
-//    public void canGetSalePrice(){
-//        assertEquals(200, guitar.getSalePrice());
-//    }
+
+    @Test
+    public void canGetSalePrice(){
+        assertEquals(215, trumpet.getSalePrice());
+    }
 //
 //    @Test
 //    public void canGetNumberOfStrings(){
