@@ -43,4 +43,16 @@ public abstract class Instrument {
     public int getSalePrice() {
         return salePrice;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPurchasePrice(int purchasePrice) {
+        this.purchasePrice = purchasePrice;
+    }
+
+    public void setSalePrice(int salePrice) {
+        this.salePrice = salePrice;
+    }
 }

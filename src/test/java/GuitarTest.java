@@ -60,4 +60,10 @@ public class GuitarTest {
     public void canCalculateMarkup(){
         assertEquals(100, guitar.calculateMarkup());
     }
+
+    @Test
+    public void canSetName(){
+        guitar.setName("Les Paul");
+        assertEquals("Les Paul", guitar.getName());
+    }
 }

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04a410d0-8b9e-4a78-875b-aa87c57d8bd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SheetMusicTest.canGetMarkup">
+  <component name="RunManager" selected="JUnit.GuitarTest.canSetName">
+    <configuration name="GuitarTest.canSetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="METHOD_NAME" value="canSetName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SheetMusicTest.canGetMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,23 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrumpetTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MusicShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
-      <option name="METHOD_NAME" value="canCalculateMarkup" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuitarTest.canSetName" />
         <item itemvalue="JUnit.SheetMusicTest.canGetMarkup" />
         <item itemvalue="JUnit.SheetMusicTest.canGetSalePrice" />
         <item itemvalue="JUnit.SheetMusicTest.canGetPurchasePrice" />
         <item itemvalue="JUnit.SheetMusicTest.canGetName" />
-        <item itemvalue="JUnit.TrumpetTest.canCalculateMarkup" />
       </list>
     </recent_temporary>
   </component>
