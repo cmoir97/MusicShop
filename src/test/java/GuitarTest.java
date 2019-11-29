@@ -72,4 +72,10 @@ public class GuitarTest {
         guitar.setPurchasePrice(150);
         assertEquals(150, guitar.getPurchasePrice());
     }
+
+    @Test
+    public void canSetSalePrice(){
+     guitar.setSalePrice(250);
+     assertEquals(250, guitar.getSalePrice());
+    }
 }
