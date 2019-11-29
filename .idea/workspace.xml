@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrumpetTest.canGetSalePrice">
+  <component name="RunManager" selected="JUnit.TrumpetTest.canGetNumberOfValves">
     <configuration name="TrumpetTest.canGetColour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,11 +72,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrumpetTest.canGetMaterial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrumpetTest.canGetNumberOfValves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
-      <option name="METHOD_NAME" value="canGetMaterial" />
+      <option name="METHOD_NAME" value="canGetNumberOfValves" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrumpetTest.canGetNumberOfValves" />
         <item itemvalue="JUnit.TrumpetTest.canGetSalePrice" />
         <item itemvalue="JUnit.TrumpetTest.canGetPurchasePrice" />
         <item itemvalue="JUnit.TrumpetTest.canGetFamily" />
         <item itemvalue="JUnit.TrumpetTest.canGetColour" />
-        <item itemvalue="JUnit.TrumpetTest.canGetMaterial" />
       </list>
     </recent_temporary>
   </component>

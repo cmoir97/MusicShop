@@ -44,11 +44,11 @@ public class TrumpetTest {
     public void canGetSalePrice(){
         assertEquals(215, trumpet.getSalePrice());
     }
-//
-//    @Test
-//    public void canGetNumberOfStrings(){
-//        assertEquals(4, guitar.getNumberOfStrings());
-//    }
+
+    @Test
+    public void canGetNumberOfValves(){
+        assertEquals(3, trumpet.getNumberOfValves());
+    }
 //
 //    @Test
 //    public void canPlayGuitar(){
