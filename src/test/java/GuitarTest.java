@@ -44,4 +44,14 @@ public class GuitarTest {
     public void canGetSalePrice(){
         assertEquals(200, guitar.getSalePrice());
     }
+
+    @Test
+    public void canGetNumberOfStrings(){
+        assertEquals(4, guitar.getNumberOfStrings());
+    }
+
+    @Test
+    public void canPlayGuitar(){
+        assertEquals("Strum", guitar.play());
+    }
 }
