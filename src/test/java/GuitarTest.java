@@ -2,6 +2,7 @@ import enums.InstrumentFamily;
 import instruments.Guitar;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.notification.RunListener;
 
 import static org.junit.Assert.assertEquals;
 
@@ -53,5 +54,10 @@ public class GuitarTest {
     @Test
     public void canPlayGuitar(){
         assertEquals("Strum", guitar.play());
+    }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(100, guitar.calculateMarkup());
     }
 }

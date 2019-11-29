@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04a410d0-8b9e-4a78-875b-aa87c57d8bd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GuitarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GuitarTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,12 +52,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GuitarTest.canPlayGuitar">
-    <configuration name="GuitarTest.canGetFamily" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GuitarTest.canCalculateMarkup">
+    <configuration name="GuitarTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GuitarTest" />
-      <option name="METHOD_NAME" value="canGetFamily" />
+      <option name="METHOD_NAME" value="canCalculateMarkup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuitarTest.canCalculateMarkup" />
         <item itemvalue="JUnit.GuitarTest.canPlayGuitar" />
         <item itemvalue="JUnit.GuitarTest.canGetNumberOfStrings" />
         <item itemvalue="JUnit.GuitarTest.canGetSalePrice" />
         <item itemvalue="JUnit.GuitarTest.canGetPurchasePrice" />
-        <item itemvalue="JUnit.GuitarTest.canGetFamily" />
       </list>
     </recent_temporary>
   </component>

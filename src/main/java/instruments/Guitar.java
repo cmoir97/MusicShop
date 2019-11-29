@@ -1,9 +1,10 @@
 package instruments;
 
 import behaviours.IPlay;
+import behaviours.ISell;
 import enums.InstrumentFamily;
 
-public class Guitar extends Instrument implements IPlay {
+public class Guitar extends Instrument implements IPlay, ISell {
 
     private int numberOfStrings;
 
@@ -19,5 +20,9 @@ public class Guitar extends Instrument implements IPlay {
 
     public String play() {
         return "Strum";
+    }
+
+    public int calculateMarkup() {
+        return getSalePrice() - getPurchasePrice();
     }
 }
