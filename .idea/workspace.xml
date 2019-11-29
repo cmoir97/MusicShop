@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SheetMusicTest.canGetPurchasePrice">
+  <component name="RunManager" selected="JUnit.SheetMusicTest.canGetSalePrice">
     <configuration name="SheetMusicTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,21 +72,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrumpetTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SheetMusicTest.canGetSalePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
-      <option name="METHOD_NAME" value="canCalculateMarkup" />
+      <option name="MAIN_CLASS_NAME" value="SheetMusicTest" />
+      <option name="METHOD_NAME" value="canGetSalePrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrumpetTest.canGetNumberOfValves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrumpetTest.canCalculateMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
-      <option name="METHOD_NAME" value="canGetNumberOfValves" />
+      <option name="METHOD_NAME" value="canCalculateMarkup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SheetMusicTest.canGetSalePrice" />
         <item itemvalue="JUnit.SheetMusicTest.canGetPurchasePrice" />
         <item itemvalue="JUnit.SheetMusicTest.canGetName" />
         <item itemvalue="JUnit.TrumpetTest.canCalculateMarkup" />
         <item itemvalue="JUnit.TrumpetTest.canPlayTrumpet" />
-        <item itemvalue="JUnit.TrumpetTest.canGetNumberOfValves" />
       </list>
     </recent_temporary>
   </component>

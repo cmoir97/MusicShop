@@ -24,4 +24,9 @@ public class SheetMusicTest {
         assertEquals(5, sheetMusic.getPurchasePrice());
     }
 
+    @Test
+    public void canGetSalePrice(){
+        assertEquals(10, sheetMusic.getSalePrice());
+    }
+
 }
