@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04a410d0-8b9e-4a78-875b-aa87c57d8bd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GuitarTest.canSetSalePrice">
+  <component name="RunManager" selected="JUnit.ShopTest.canGetStockCount">
     <configuration name="GuitarTest.canSetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,21 +83,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SheetMusicTest.canGetMarkup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopTest.canGetCashInTill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SheetMusicTest" />
-      <option name="METHOD_NAME" value="canGetMarkup" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canGetCashInTill" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SheetMusicTest.canGetSalePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopTest.canGetStockCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SheetMusicTest" />
-      <option name="METHOD_NAME" value="canGetSalePrice" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canGetStockCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest.canGetStockCount" />
+        <item itemvalue="JUnit.ShopTest.canGetCashInTill" />
         <item itemvalue="JUnit.GuitarTest.canSetSalePrice" />
         <item itemvalue="JUnit.GuitarTest.canSetPurchasePrice" />
         <item itemvalue="JUnit.GuitarTest.canSetName" />
-        <item itemvalue="JUnit.SheetMusicTest.canGetMarkup" />
-        <item itemvalue="JUnit.SheetMusicTest.canGetSalePrice" />
       </list>
     </recent_temporary>
   </component>
