@@ -4,7 +4,7 @@ import behaviours.IPlay;
 import behaviours.ISell;
 import enums.InstrumentFamily;
 
-public class Trumpet extends Instrument implements IPlay, ISell {
+public class Trumpet extends Instrument{
     private int numberOfValves;
     public Trumpet(String name, String material, String colour, InstrumentFamily family,
                    int purchasePrice, int salePrice, int numberOfValves) {

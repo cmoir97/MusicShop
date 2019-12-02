@@ -4,7 +4,7 @@ import behaviours.IPlay;
 import behaviours.ISell;
 import enums.InstrumentFamily;
 
-public class Guitar extends Instrument implements IPlay, ISell {
+public class Guitar extends Instrument {
 
     private int numberOfStrings;
 

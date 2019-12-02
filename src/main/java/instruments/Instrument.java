@@ -1,8 +1,10 @@
 package instruments;
 
+import behaviours.IPlay;
+import behaviours.ISell;
 import enums.InstrumentFamily;
 
-public abstract class Instrument {
+public abstract class Instrument implements IPlay, ISell {
 
     private String name;
     private String material;
@@ -55,4 +57,5 @@ public abstract class Instrument {
     public void setSalePrice(int salePrice) {
         this.salePrice = salePrice;
     }
+
 }
